@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoNote</string>
+    <string name="title_activity_new_note_map">Notiz(en) auf Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">aktuelles Projekt: </string>
+    <string name="bt_save">Speichern</string>
+    <string name="bt_location">Lokalisieren</string>
+    <string name="bt_quit">Beenden</string>
+    <string name="bt_restart">Neustart</string>
+    <string name="subject">Thema:</string>
+    <string name="note">Notiz:</string>
+    <string name="m_item_edit">Projekt ändern</string>
+    <string name="m_item_select">Projekt wählen</string>
+    <string name="m_item_gps">GPS-Intervall</string>
+    <string name="m_gps_foot">zu Fuß (9 sec/10 m)</string>
+    <string name="m_gps_velo">Rad (4 sec/25 m)</string>
+    <string name="m_gps_car_local">PKW lokal (4 sec/50 m)</string>
+    <string name="m_gps_car_far">PKW fern (4 sec/100 m)</string>
+    <string name="edit_project_positive">Übernehmen</string>
+    <string name="edit_project_negative">Abbrechen</string>
+    <string name="bt_new">Neue Notiz</string>
+    <string name="delete">aktuelle Notiz löschen</string>
+    <string name="m_item_backup_project">Projekt exportieren</string>
+    <string name="m_item_show_osm">auf OSM darstellen</string>
+    <string name="title_activity_osm_web_view">OpenStreetMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_userid">UserID:</string>
+    <string name="tv_host">Host:</string>
+    <string name="bt_send">Location senden</string>
+    <string name="bt_call">Locations abrufen</string>
+    <string name="m_item_webserver">Kontakt mit Webserver</string>
+    <string name="title_activity_default_web_view">GeoNotes</string>
+
+</resources>

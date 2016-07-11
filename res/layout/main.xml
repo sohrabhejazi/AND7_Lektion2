@@ -1,0 +1,94 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background">
+
+   <TextView
+android:id="@+id/tv_hello"
+style="@style/TextViewStyle"
+android:text="@string/hello"
+android:textColor="@color/text" />
+<TextView
+style="@style/TextViewStyle"
+android:text="@string/subject"
+android:textColor="@color/text" />
+<EditText
+android:id="@+id/et_subject"
+style="@style/TextViewStyle" />
+<TextView
+style="@style/TextViewStyle"
+android:text="@string/note"
+android:textColor="@color/text" />
+<EditText
+android:id="@+id/et_note"
+style="@style/TextViewStyle" />
+<RelativeLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal">
+<Button
+android:id="@+id/bt_nav_first"
+style="@style/ButtonStyle"
+android:text="|&lt;&lt;" />
+<Button
+android:id="@+id/bt_nav_left"
+style="@style/ButtonStyle"
+android:layout_toRightOf="@id/bt_nav_first"
+android:text="&lt;" />
+<TextView
+android:id="@+id/tv_note_number"
+style="@style/ButtonStyle"
+android:textColor="@color/text"
+android:layout_centerInParent="true"
+android:layout_toRightOf="@id/bt_nav_left" />
+<Button
+android:id="@+id/bt_nav_right"
+style="@style/ButtonStyle"
+android:layout_toRightOf="@id/tv_note_number"
+android:text="&gt;" />
+<Button
+android:id="@+id/bt_nav_last"
+style="@style/ButtonStyle"
+android:layout_toRightOf="@id/bt_nav_right"
+android:text="&gt;&gt;|" />
+</RelativeLayout>
+
+<RelativeLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal">
+<Button
+android:id="@+id/bt_new_note"
+style="@style/ButtonStyle"
+android:text="@string/bt_new" />
+</RelativeLayout>
+
+<RelativeLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal">
+<Button
+android:id="@+id/bt_save"
+style="@style/ButtonStyle" 
+android:text="@string/bt_save" />
+<Button
+android:id="@+id/bt_location"
+style="@style/ButtonStyle" 
+android:layout_toRightOf="@id/bt_save"
+android:text="@string/bt_location" />
+<Button
+android:id="@+id/bt_quit"
+style="@style/ButtonStyle" 
+android:layout_toRightOf="@id/bt_location"
+android:text="@string/bt_quit" />
+</RelativeLayout>
+<TextView
+android:id="@+id/tv_output"
+style="@style/TextViewStyle"
+android:textColor="@color/text" />
+</LinearLayout>
